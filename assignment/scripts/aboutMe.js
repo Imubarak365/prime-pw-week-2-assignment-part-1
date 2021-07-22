@@ -17,27 +17,42 @@ let sentence = 'my name is' + fullName + ' and I think' + luckyNumber + ' is a w
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 let adventurous = true;
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
-
+let food = ' chicken';
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
-
+let pets = 0;
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-
+let friendsPets = 0
 // 11 - Add two pets to your `pets` variable
-
+pets += 2;
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-
+const allowedPets = 0
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!",
 // if it's not true, console log "How about we stay home?"
-
-
+if(Adventures==Adventures){
+  console.log(' Adventures are great');
+}
+else {
+  console.log(' how about we stay home');
+}
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
-
+if (luckyNumber= 2 && Adventures = true){
+  console.log(' roll the dice');
+}
 // 15 - Write a conditional that console logs "I can have more pets!"
 //if the value of `pets` is less than the value of `allowedPets`,
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
+if ( pets < allowedPets){
+  console.log(' I can have more pets');
+}
+if ( pets = allowedPets){
+  console.log(' I have enough pets');
+}
+if (pets > allowedPets){
+  console.log(' oh no, I have too many pets');
+}
 
 // STRETCH GOALS:
 
