@@ -61,7 +61,34 @@ if (pets > allowedPets) {
 // assigns the highest value to `mostPets`. There's several possibilities --
 // be sure to think through all the scenarios.
 // console.log `mostPets` after the conditional has run.
+let mostpets;
+if(pets > friendsPets)
+{
+  mostpets = pets;
+}
+else if(friendsPets > pets)
+{
+  mostpets = friendsPets;
+}
+else {
+  mostpets = friendsPets;
+}
+console.log(mostpets);
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
+switch (pets)
+{
+case pets > friendsPets:
+  mostpets = pets;
+break;
+}
 
+case pets < friendsPets
+  mostpets = friendsPets
+break;
+
+default:
+  mostpets = friendsPets
+break;
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
+(adventurous == true) ? 'Adventures a great': ' how about we stay home';
